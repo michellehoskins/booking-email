@@ -1,59 +1,63 @@
-// These are the styles to make some of the templates look extra nice.
-// Feel free to remove these styles for production!
-
-// Body Styles 
-body,
-html, 
-.body {
-  background: #f3f3f3 !important;
+html, body,
+.body{
+  background: #f5f6f7;
+  background-color: #f5f6f7;
+  font: Arial,Helvetica,sans-serif;
 }
-
-.container.header {
-  background: #f3f3f3;
-}
-
-.body-drip {
-  border-top: 8px solid #663399;
-}
-
-// Full Width Headers
-.header {
-  background: #8a8a8a;
-}
-
-.header .columns {
-  padding-bottom: 0;
-}
-
-.header p {
-  color: #fff;
-  padding-top: 15px;
-}
-
-.header .wrapper-inner {
-  padding: 20px;
-}
-
-.header .container {
-  background: transparent;
-}
-
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
-}
-
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
-}
-
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
-
-.wrapper.secondary {
-  background: #f3f3f3;
+.header{
+  background: #ffffff;
+  background-color: #ffffff;
+  border-left: 1px solid #d1d2d3;
+  border-bottom: 1px solid #d1d2d3;
+  border-right: 1px solid #d1d2d3;
+  height: 77px;
+  .left{
+    padding: 6px;
+    .logo{
+      padding: 6px;
+    }
+  }
+  .middle{
+    display: block;
+    
+    .info-primary{
+      color: #990000;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: .8;
+    }
+    .info-secondary{
+      color: #005083;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: .8;
+    }
+    .phone_blue{
+      width: 14px;
+      display: inline-block;
+      line-height: .8;
+    }
+    .chat_blue{
+      width: 14px;
+      display: inline-block;
+      line-height: .8;
+    }
+  }
+  .right{
+    .info-primary{
+      font-size: 13px;
+      color: #056ba8;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .print{
+      display: inline-block;
+      padding-right: 10px;
+    }
+    .info-secondary{
+      font-size: 13px;
+      color: #056ba8;
+      font-weight: bold;
+    }
+  }
 }
