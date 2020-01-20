@@ -80,3 +80,508 @@ html, body,
     text-decoration: underline;
   }
 }
+.number_email_date{
+  background: #f5f6f7;
+  background-color: #f5f6f7;
+  .info-primary{
+    font-size: 12px;
+    color: #666666;
+    .info-secondary{
+      color: #0000ee;
+    }
+  }
+}
+.flight_details{
+  background: #f5f6f7;
+  background-color: #f5f6f7;
+  .details{
+    color: #076ba7;
+    font-size: 24px;
+   
+    .flight{
+      display: inline-block;
+      padding-top: 20px;
+    }
+    .text{
+      padding-top: 0;
+      padding-bottom: 30px !important;
+    }
+  }
+  .status{
+    font-size: 14px;
+    padding-top: 30px;
+    .status_yes{
+      display: inline-block;
+    }
+    .text_primary{
+      color: #666666;
+    }
+    .text_secondary{
+      color: #056ba8;
+      text-decoration: underline;
+    }
+  }
+}
+.departing{
+  background: #dee9f2;
+  background-color: #dee9f2;
+  padding: 3px 15px;
+  .departing_flight{
+    color: #056ba8;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 34px;
+  }
+  .button{
+    background-color: #118acb;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    height: 34px;
+    .make_changes{
+      display: inline-block;
+      width: 31px;
+    }
+  }
+}
+.plane_times{
+  .airline{
+    .left{
+      width: 45%;
+    .spirit_icon{
+        border: 1px solid #acacac;
+        border-radius: 5px;
+        width: 60px;
+        height: 35px;
+      }
+    }
+    .right{
+      .text_primary{
+        font-size: 12px;
+        color: #333333;
+      }
+      .text_secondary{
+        font-size: 12px;
+        color: #666666;
+      }
+    }
+  }
+  .type{
+    .text_primary{
+      font-size: 12px;
+      color: #a1a1a1;
+    }
+  }
+  .info{
+    .text_secondary{
+      font-size: 12px;
+      color: #428bca;
+      text-decoration: none;
+      .text_tertiary{
+        color: #666666;
+      }
+    }
+  }
+  .first_row{
+    .depature_date{
+      font-size: 16px;
+      font-weight: bold;
+      color: #666666;
+    }
+  }
+  .second_row{
+    .depature_place{
+      font-size: 12px;
+      color: #666666;
+    }
+  }
+  .third_row{
+    .depature_time{
+      font-size: 20px;
+      font-weight: bold;
+      color: #666666;
+    }
+  }
+  .fourth_row{
+    .arrival_place{
+      font-size: 12px;
+      color: #666666;
+    }    
+  }
+  .fifth_row{
+    .arrival_time{
+      font-size: 20px;
+      font-weight: bold;
+      color: #666666;
+    }   
+  }
+  .six_row{
+    .arrival_date{
+      font-size: 16px;
+      font-weight: bold;
+      color: #666666;
+    }
+  }
+  .first{
+    .airline_confirmation{
+      background: #f6f6f6;
+      background-color: #f6f6f6;
+      .confirmation{
+        font-size: 12px;
+        color: #666666;
+      }
+      .number{
+        font-size: 12px;
+        color: #666666;
+        font-weight: bold;
+      }
+    }
+  }
+  .middle{
+    .check_in{
+      font-size: 12px;
+      color: #428bca;
+      text-decoration: underline;
+    }
+  }
+  .last{
+    .chat{
+      font-size: 14px;
+      color: #428bca;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .support{
+      font-size: 12px;
+      color: #000000;
+    }
+  }
+}
+.plane_times_two{
+  .airline{
+    .left{
+      width: 45%;
+    .spirit_icon{
+        border: 1px solid #acacac;
+        border-radius: 5px;
+        width: 60px;
+        height: 35px;
+      }
+    }
+    .right{
+      .text_primary{
+        font-size: 12px;
+        color: #333333;
+      }
+      .text_secondary{
+        font-size: 12px;
+        color: #666666;
+      }
+    }
+  }
+  .type{
+    .text_primary{
+      font-size: 12px;
+      color: #a1a1a1;
+    }
+  }
+  .info{
+    .text_secondary{
+      font-size: 12px;
+      color: #428bca;
+      text-decoration: none;
+      .text_tertiary{
+        color: #666666;
+      }
+    }
+  }
+  .first_row{
+    .depature_date{
+      font-size: 16px;
+      font-weight: bold;
+      color: #666666;
+    }
+  }
+  .second_row{
+    .depature_place{
+      font-size: 12px;
+      color: #666666;
+    }
+  }
+  .third_row{
+    .depature_time{
+      font-size: 20px;
+      font-weight: bold;
+      color: #666666;
+    }
+  }
+  .fourth_row{
+    .arrival_place{
+      font-size: 12px;
+      color: #666666;
+    }    
+  }
+  .fifth_row{
+    .arrival_time{
+      font-size: 20px;
+      font-weight: bold;
+      color: #666666;
+    }   
+  }
+  .six_row{
+    .arrival_date{
+      font-size: 16px;
+      font-weight: bold;
+      color: #666666;
+    }
+  }
+  .first{
+    .airline_confirmation{
+      background: #f6f6f6;
+      background-color: #f6f6f6;
+      .confirmation{
+        font-size: 12px;
+        color: #666666;
+      }
+      .number{
+        font-size: 12px;
+        color: #666666;
+        font-weight: bold;
+      }
+    }
+  }
+  .middle{
+    .check_in{
+      font-size: 12px;
+      color: #428bca;
+      text-decoration: underline;
+    }
+  }
+  .last{
+    .chat{
+      font-size: 14px;
+      color: #428bca;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .support{
+      font-size: 12px;
+      color: #000000;
+    }
+  }
+}
+.fare_rules{
+  background: #fff1d8;
+  background-color:#fff1d8;
+  .first_column{
+    padding: 15px;
+    padding-bottom: 20px !important;
+    border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
+    .text_primary{
+      font-size: 12px;
+      color: #a1a1a1;
+      .text_secondary{
+        color: #428bca;
+      }
+    }
+  }
+}
+.traveler_info{
+  .first_column{
+    padding: 15px 10px;
+    border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
+    .traveler{
+      color: #056ba8;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .verify{
+      color: #f04e25;
+      font-size: 12px;
+    }
+    .heading{
+      font-size: 12px;
+      color: #666666;
+    }
+    .info{
+      font-size: 16px;
+      color: #666666;
+      font-weight: bold;
+    }
+  }
+}
+.disclaimer{
+  background: #fff1d8;
+  background-color:#fff1d8;
+  border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
+  .first_column{
+    padding: 15px;
+    padding-bottom: 15px !important;
+    .text_primary{
+        font-size: 12px;
+        color: #a1a1a1;
+    }
+  }
+}
+.boarding_pass{
+  .first_column{
+    padding: 15px;
+    padding-bottom: 15px !important;
+    border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
+    .pass{
+      color: #056ba8;
+      font-size: 20px;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+    .boarding_pass_icon{
+      padding: 10px;
+    }
+    .price{
+      font-size: 16px;
+      background-color: #e7f3fa;
+      background: #e7f3fa;
+      color: #666666;
+    }
+    .blue_check{
+      display: inline-block;
+    }
+    .sub_title{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: #666666;
+      font-size: 20px;
+    }
+    .list_item{
+      font-size: 14px;
+      color: #666666;
+    }
+    .button{
+      width: 347px;
+      background-color: #ff6000;
+      border-bottom: 1px solid #b1320a;
+      color: #ffffff;
+      font-size: 16px;
+      border-radius: 0px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0;
+    }
+    .service{
+      font-size: 12px;
+      color: #666666;
+    }
+  }
+}
+.travel_insurance{
+  .first_column{
+    padding: 15px;
+    padding-bottom: 15px !important;
+    border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
+    .title{
+      color: #056ba8;
+      font-size: 20px;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+    .icon_row{
+      width: 166px !important;
+      .icon_column{
+        background: #005082;
+        background-color: #005082;
+    
+        .travel_insurance_icon{
+          margin: auto;
+        }
+      }
+    }
+    .learn_more{
+      color: #428bca;
+      font-size: 14px;
+    }
+    .investment_price{
+      font-size: 16px;
+      background-color: #e7f3fa;
+      background: #e7f3fa;
+      color: #666666;
+    }
+    .receive_trip{
+      font-size: 14px;
+      color: #666666;
+    }
+    .emergency_assistance{
+      font-size: 14px;
+      color: #666666;
+    }
+    .protection_button{
+      background-color: #ff6000;
+      border-bottom: 1px solid #b1320a;
+      color: #ffffff;
+      font-size: 16px;
+      border-radius: 0px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0;
+    }
+    .view_conditions{
+      text-decoration: none;
+      color: #428bca;
+      font-size: 12px;
+    }
+  }
+}
+.travel_assist{
+  .first_column{
+    padding: 15px;
+    padding-bottom: 15px !important;
+    border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
+    .title{
+      color: #056ba8;
+      font-size: 20px;
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+    .learn_more{
+      color: #428bca;
+      font-size: 14px;
+    }
+    .price{
+      font-size: 16px;
+      background-color: #e7f3fa;
+      background: #e7f3fa;
+      color: #666666;
+    }
+    .call_us{
+      font-size: 14px;
+      color: #666666;
+      font-weight: bold;
+    }
+    .blue_check{
+      display: inline-block;
+    }
+    .list_item{
+      font-size: 14px;
+      color: #666666;
+    }
+    .button{
+      background-color: #ff6000;
+      border-bottom: 1px solid #b1320a;
+      color: #ffffff;
+      font-size: 16px;
+      border-radius: 0px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0;
+    }
+    .not_medical{
+      font-size: 12px;
+      color: #666666;
+    }
+  }
+}
