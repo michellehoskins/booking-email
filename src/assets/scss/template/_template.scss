@@ -407,23 +407,39 @@ html, body,
     padding-right: 10px !important;
     padding-left: 10px !important;
     border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
-    .traveler{
-      color: #056ba8;
-      font-size: 20px;
-      font-weight: bold;
+    .left{
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+      padding-right: 3px !important;
+      padding-left: 3px !important;
+      .traveler{
+        color: #056ba8;
+        font-size: 20px;
+        font-weight: bold;
+      }
     }
-    .verify{
-      color: #f04e25;
-      font-size: 12px;
+    .right{
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+      padding-right: 3px !important;
+      padding-left: 3px !important;
+      .verify{
+        color: #f04e25;
+        font-size: 12px;
+      }
     }
-    .heading{
-      font-size: 12px;
-      color: #666666;
+    .heading_column{
+      .heading{
+        font-size: 12px;
+        color: #666666;
+      }
     }
-    .info{
-      font-size: 16px;
-      color: #666666;
-      font-weight: bold;
+    .info_column{
+      .info{
+        font-size: 16px;
+        color: #666666;
+        font-weight: bold;
+      }
     }
   }
 }
