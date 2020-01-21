@@ -628,9 +628,6 @@ html, body,
       }
     }
     .right{
-      
-    
-  
         .price_title{
           font-size: 16px;
           color: #666666;
@@ -993,6 +990,84 @@ html, body,
       width: 317px;
       text-align: center;
       border-radius: 0px;
+    }
+  }
+}
+.baggage_protection{
+  .first_column{
+    .title{
+      color: #056ba8;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .icon_row{
+      width: 166px !important;
+      .icon_column{
+        background: #005082;
+        background-color: #005082;
+        .baggage_protection_icon{
+          margin: auto;
+        }
+      }
+    }
+    .learn_more{
+      display: block;
+      color: #428bca;
+      background: #f5f6f7;
+      background-color: #f5f6f7;
+      font-size: 14px;
+      width: 166px;
+      height: 48px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 0px;
+      padding-top: 15px;
+      padding-bottom: 0;
+      border: 1px solid #cdcdcd;
+      border-bottom: 1px solid #b7b7b7;
+      margin: 0 auto;
+    }
+    .price_title{
+      font-size: 16px;
+      color: #666666;
+      display: inline-block;
+      background-color: #e7f3fa;
+      background: #e7f3fa;
+    }
+    .price{
+      font-size: 16px;
+      color: #666666;
+      display: inline-block;
+      background-color: #e7f3fa;
+      background: #e7f3fa;
+    }
+    .info{
+      font-size: 14px;
+      color: #666666;
+      .blue_check{
+        display: inline-block;
+      }
+    }
+    .button{
+      background: #ff6000;
+      background-color: #ff6000;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: bold;
+      width: 317px;
+      text-align: center;
+      border-radius: 0px;
+    }
+    .sub_script{
+      font-size: 12px;
+      color: #666666;
+      .sub_script_email{
+        color: #0000ee;
+        text-decoration: underline;
+      }
+      .sub_script_terms{
+        color: #428bca;
+      }
     }
   }
 }
