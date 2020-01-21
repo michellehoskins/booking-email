@@ -402,7 +402,10 @@ html, body,
 }
 .traveler_info{
   .first_column{
-    padding: 15px 10px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
     border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
     .traveler{
       color: #056ba8;
@@ -600,6 +603,7 @@ html, body,
 }
 .flight_watcher{
   .first_column{
+    padding-top: 15px !important;
     padding-bottom: 15px !important;
     padding-right: 10px !important;
     padding-left: 10px !important;
