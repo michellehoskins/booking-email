@@ -648,30 +648,38 @@ html, body,
       }
       .icon_row{
         width: 166px !important;
+        margin-bottom: 25px !important;
         .icon_column{
           background: #005082;
           background-color: #005082;
+          
           .flight_watcher_icon{
             margin: auto;
           }
         }
       }
-      .learn_more{
-        display: block;
-        color: #428bca;
-        background: #f5f6f7;
-        background-color: #f5f6f7;
-        font-size: 14px;
-        width: 166px;
-        height: 48px;
-        text-align: center;
-        font-weight: bold;
-        border-radius: 0px;
-        padding-top: 15px;
-        padding-bottom: 0;
-        border: 1px solid #cdcdcd;
-        border-bottom: 1px solid #b7b7b7;
-        margin: 0 auto;
+      .learn_more_row{
+        width: 166px !important;
+        .learn_more_column{
+          color: #428bca;
+          background: #f5f6f7;
+          background-color: #f5f6f7;
+          vertical-align: middle;
+          
+          .learn_more{
+            display: inline-block;
+            font-size: 14px;
+            width: 166px;
+            height: 48px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 0px;
+            border: 1px solid #cdcdcd;
+            border-bottom: 1px solid #b7b7b7;
+            line-height: 28px;
+            vertical-align: middle;
+          }
+        }
       }
     }
     .right{
@@ -682,6 +690,7 @@ html, body,
         
         .columns{
           height: 60px;
+          padding-left: 6px !important;
           .price_title{
             font-size: 16px;
             color: #666666;
@@ -690,12 +699,10 @@ html, body,
         }
         .columns{
           height: 40px;
-          padding-left: 6px !important;
           .price{
             font-size: 16px;
             color: #666666;
             display: inline-block;
-
           }
         }
       }
