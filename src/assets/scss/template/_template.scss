@@ -638,11 +638,13 @@ html, body,
     border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
 
     .left{
-      .title{
-        color: #056ba8;
-        font-size: 20px;
-        font-weight: bold;
-        padding-bottom: 10px;
+      .title_column{
+        padding-bottom: 25px;
+        .title{
+          color: #056ba8;
+          font-size: 20px;
+          font-weight: bold;
+        }
       }
       .icon_row{
         width: 166px !important;
@@ -673,20 +675,30 @@ html, body,
       }
     }
     .right{
-        .price_title{
-          font-size: 16px;
-          color: #666666;
-          display: inline-block;
-          background-color: #e7f3fa;
+      .title_row{
+        background-color: #e7f3fa;
         background: #e7f3fa;
+        width: 100%;
+        
+        .columns{
+          height: 60px;
+          .price_title{
+            font-size: 16px;
+            color: #666666;
+            display: inline-block;
+          }
         }
-        .price{
-          font-size: 16px;
-          color: #666666;
-          display: inline-block;
-          background-color: #e7f3fa;
-        background: #e7f3fa;
+        .columns{
+          height: 40px;
+          padding-left: 6px !important;
+          .price{
+            font-size: 16px;
+            color: #666666;
+            display: inline-block;
+
+          }
         }
+      }
       
 
       .text_primary{
