@@ -961,3 +961,38 @@ html, body,
     }
   }
 }
+.add_a_car{
+  .first_column{
+    .title{
+      color: #056ba8;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    }
+    .sub_title{
+      font-size: 16px;
+      color: #333333;
+      display: block;
+      .sub_title_secondary{
+        color: #7ba736;
+      }
+    }
+    .info{
+      font-size: 14px;
+      color: #666666;
+      .blue_check{
+        display: inline-block;
+      }
+    }
+    .button{
+      background: #ff6000;
+      background-color: #ff6000;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: bold;
+      width: 317px;
+      text-align: center;
+      border-radius: 0px;
+    }
+  }
+}
