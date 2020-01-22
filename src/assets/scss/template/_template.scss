@@ -524,77 +524,120 @@ html, body,
     padding-left: 10px !important;
     padding-right: 10px !important;
     border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
-    .title{
-      color: #056ba8;
-      font-size: 20px;
-      font-weight: bold;
-      padding-bottom: 10px;
-    }
-    .icon_row{
-      width: 166px !important;
-      .icon_column{
-        background: #005082;
-        background-color: #005082;
     
-        .travel_insurance_icon{
-          margin: auto;
-        }
-      }
-    }
-    .learn_more_row{
-      width: 166px !important;
-      background: #f5f6f7;
-      background-color: #f5f6f7;
-      border: 1px solid #cdcdcd;
-      border-bottom: 1px solid #b7b7b7;
-      
-      .learn_more_column{
-        height: 48px;
-        
-        .learn_more{
-          color: #428bca;
-          display: block;
-          font-size: 14px;
-          width: 166px;
-         
-          text-align: center;
+    .left{
+      .title_column{
+        padding-bottom: 25px;
+        .title{
+          color: #056ba8;
+          font-size: 20px;
           font-weight: bold;
-          border-radius: 0px;
-
-          line-height: 28px;
-
+        }
+      }
+      .icon_row{
+        width: 166px !important;
+        margin-bottom: 15px !important;
+        .icon_column{
+          background: #005082;
+          background-color: #005082;
+      
+          .travel_insurance_icon{
+            margin: auto;
+          }
+        }
+      }
+      .learn_more_row{
+        width: 166px !important;
+        background: #f5f6f7;
+        background-color: #f5f6f7;
+        border: 1px solid #cdcdcd;
+        border-bottom: 1px solid #b7b7b7;
+        
+        .learn_more_column{
+          height: 48px;
+          
+          .learn_more{
+            color: #428bca;
+            display: block;
+            font-size: 14px;
+            width: 166px;
+           
+            text-align: center;
+            font-weight: bold;
+            border-radius: 0px;
+  
+            line-height: 28px;
+  
+          }
         }
       }
     }
-    .investment_price{
-      font-size: 16px;
-      background-color: #e7f3fa;
-      background: #e7f3fa;
-      color: #666666;
-    }
-    .receive_trip{
-      font-size: 14px;
-      color: #666666;
-    }
-    .emergency_assistance{
-      font-size: 14px;
-      color: #666666;
-    }
-    .protection_button{
-      background-color: #ff6000;
-      border-bottom: 1px solid #b1320a;
-      color: #ffffff;
-      font-size: 16px;
-      border-radius: 0px;
-      text-align: center;
-      text-decoration: none;
-      font-weight: bold;
-      margin: 0;
-    }
-    .view_conditions{
-      text-decoration: none;
-      color: #428bca;
-      font-size: 12px;
+    .right{
+      .title_row{
+        background-color: #e7f3fa;
+        background: #e7f3fa;
+        width: 100%;
+        margin-bottom: 15px;
+        
+        .columns{
+          height: 40px;
+          padding-left: 6px !important;
+          
+          .price_title{
+            font-size: 16px;
+            color: #666666;
+            display: inline-block;
+          }
+        }
+        .columns{
+          height: 40px;
+          .price{
+            font-size: 16px;
+            color: #666666;
+            display: inline-block;
+          }
+        }
+      }
+      .receive_trip_column{
+        padding-bottom: 15px;
+        .receive_trip{
+          font-size: 14px;
+          color: #666666;
+        }
+      }
+      .emergency_assistance_column{
+        padding-bottom: 15px;
+        .emergency_assistance{
+          font-size: 14px;
+          color: #666666;
+        }
+      }
+      .button_row{
+        width: 347px;
+        background-color: #ff6000;
+        border-bottom: 1px solid #b1320a;
+        
+        .button_column{
+          height: 36px;
+          
+          .button{
+            display: block;
+            font-size: 16px;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+          }
+        }
+      }
+      .view_conditions_column{
+        padding-top: 15px;
+        .view_conditions{
+          text-decoration: none;
+          color: #428bca;
+          font-size: 12px;
+        }
+      }
     }
   }
 }
