@@ -1326,47 +1326,87 @@ html, body,
         }
       }
     }
-    .price_title{
-      font-size: 16px;
-      color: #666666;
-      display: inline-block;
-      background-color: #e7f3fa;
-      background: #e7f3fa;
-    }
-    .price{
-      font-size: 16px;
-      color: #666666;
-      display: inline-block;
-      background-color: #e7f3fa;
-      background: #e7f3fa;
-    }
-    .info{
-      font-size: 14px;
-      color: #666666;
-      .blue_check{
-        display: inline-block;
+
+    .right{
+      .title_row{
+        background-color: #e7f3fa;
+        background: #e7f3fa;
+        width: 100%;
+        margin-bottom: 15px;
+        
+        .columns{
+          height: 40px;
+          padding-left: 6px !important;
+          
+          .price_title{
+            font-size: 16px;
+            color: #666666;
+            display: inline-block;
+          }
+        }
+        .columns{
+          height: 40px;
+          .price{
+            font-size: 16px;
+            color: #666666;
+            display: inline-block;
+          }
+        }
+      }
+      .info_column{
+        padding-bottom: 10px;
+        .info{
+          font-size: 14px;
+          color: #666666;
+          .blue_check{
+            display: inline-block;
+            padding-right: 5px;
+          }
+        }
+      }
+      .button_row{
+        width: 347px;
+        background-color: #ff6000;
+        border-bottom: 1px solid #b1320a;
+        margin-top: 15px !important;
+        .button_column{
+          height: 36px;
+         
+          .button{
+            display: block;
+            font-size: 16px;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+          }
+        }
+      }
+      .paragraph_one_column{
+        padding-top: 15px !important;
+        .paragraph_one{
+          font-size: 12px;
+          color: #666666;
+          .paragraph_one_email{
+            color: #0000ee;
+            text-decoration: underline;
+          }
+        }
+      }
+      .paragraph_two_column{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        .paragraph_two{
+          font-size: 12px;
+          color: #666666;
+          .paragraph_two_terms{
+            color: #428bca;
+          }
+        }
       }
     }
-    .button{
-      background: #ff6000;
-      background-color: #ff6000;
-      color: #ffffff;
-      font-size: 16px;
-      font-weight: bold;
-      width: 317px;
-      text-align: center;
-      border-radius: 0px;
-    }
-    .sub_script{
-      font-size: 12px;
-      color: #666666;
-      .sub_script_email{
-        color: #0000ee;
-        text-decoration: underline;
-      }
-      .sub_script_terms{
-        color: #428bca;
-      }
-    }
+
+  
+
   }
 }
