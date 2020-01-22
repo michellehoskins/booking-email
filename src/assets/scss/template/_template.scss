@@ -687,10 +687,12 @@ html, body,
         background-color: #e7f3fa;
         background: #e7f3fa;
         width: 100%;
+        margin-bottom: 15px;
         
         .columns{
-          height: 60px;
+          height: 40px;
           padding-left: 6px !important;
+          
           .price_title{
             font-size: 16px;
             color: #666666;
@@ -707,24 +709,33 @@ html, body,
         }
       }
       
-
-      .text_primary{
-        font-size: 14px;
-        color: #666666;
-        .text_secondary{
-          font-weight: bold;
+      .text_column{
+        padding-bottom: 15px;
+        .text_primary{
+          font-size: 14px;
+          color: #666666;
+          .text_secondary{
+            font-weight: bold;
+          }
         }
       }
-      .button{
+      .button_row{
+        width: 347px;
         background-color: #ff6000;
         border-bottom: 1px solid #b1320a;
-        color: #ffffff;
-        font-size: 16px;
-        border-radius: 0px;
-        text-align: center;
-        text-decoration: none;
-        font-weight: bold;
-        margin: 0;
+        
+        .button_column{
+          height: 36px;
+          
+          .button{
+            display: block;
+            font-size: 16px;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+          }
+        }
       }
     }
   }
