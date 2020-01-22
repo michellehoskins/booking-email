@@ -294,61 +294,64 @@ subject: Booking Confirmation
           <row>
               <columns small="4" large="4" class="left">
                   <row>
-                      <columns>
-                          <span class="pass">Boarding Pass</span>
+                      <columns class="title_column">
+                          <span class="title">Boarding Pass</span>
                       </columns>
                   </row>
-                  <row>
-                      <columns>
+                  <row class="icon_row">
+                      <columns class="icon_column">
                           <img src="{{ root }}/assets/img/boarding-pass.png" class="boarding_pass_icon"/>
                       </columns>
                   </row>
               </columns>
               <columns small="8" large="8" class="right">
-                  <row>
-                      <columns>
-                          <span class="price">$3 <sup>.95</sup> Per person</span>
+                  <row class="title_row">
+                      <columns columns small="8" large="8" class="float-left">
+                          <span class="price_title float-left"> </span></span>
                       </columns>
+                      <columns small="4" large="4" valign="middle">
+                        <span class="price float-right">$3 <sup>.95</sup> <span class="price_secondary">Per person</span></sup></span>
+                    </columns>
                   </row>
                   <row>
-                      <columns>
+                      <columns class="sub_title_column">
                           <span class="sub_title">Auto Check-In</span>
                       </columns>
                   </row>
                   <row>
-                      <columns>
+                      <columns class="list_item_column">
                           <span class="list_item"><img src="{{ root }}/assets/img/blue_check.png" class="blue_check"/>Automate your flight check-in</span>
                       </columns>
                   </row>
                   <row>
-                      <columns>
+                      <columns class="list_item_column">
                           <span class="list_item"><img src="{{ root }}/assets/img/blue_check.png" class="blue_check"/>	Avoid long lines at the airport</span>
                       </columns>
                   </row>
                   <row>
-                      <columns>
+                      <columns class="sub_title_column">
                           <span class="sub_title">Easy Boarding Pass</span>
                       </columns>
                   </row>
                   <row>
-                      <columns>
+                      <columns class="list_item_column">
                           <span class="list_item"><img src="{{ root }}/assets/img/blue_check.png" class="blue_check"/>Collect your boarding pass via email</span>
                       </columns>
                   </row>
                   <row>
-                      <columns>
+                      <columns class="list_item_column">
                           <span class="list_item"><img src="{{ root }}/assets/img/blue_check.png" class="blue_check"/>Show your boarding pass from your mobile device</span>
                       </columns>
                   </row>
-                  <row>
-                      <columns>
+                  <row class="button_row">
+                      <columns class="button_column" valign="middle">
                           <a href><span class="button">Request Boarding Pass</span></a>
                       </columns>
                   </row>
               </columns>
           </row>
           <row>
-              <columns>
+              <columns class="bottom">
                   <span class="service">
                       Service may be subject to unavailability, limitations, delays and other problems which may cause your automated check-in to fail. In such case, we will notify you by email and the amount you pay will be automatically refunded to your account.
                   </span>
@@ -812,7 +815,7 @@ subject: Booking Confirmation
                 </row>
             </columns>
             <columns small="8" large="8" class="right">
-                <row  class="title_row">
+                <row class="title_row">
                     <columns small="10" large="10" class="left">
                         <span class="price_title">Blue Ribbon Bags Will:</span>
                     </columns>

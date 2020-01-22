@@ -471,49 +471,103 @@ html, body,
     padding-left: 10px !important;
     padding-right: 10px !important;
     border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
-    .pass{
-      color: #056ba8;
-      font-size: 20px;
-      font-weight: bold;
-      padding-bottom: 10px;
+
+    .left{
+      .title_column{
+        padding-bottom: 15px !important;
+        .title{
+          color: #056ba8;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+      .icon_row{
+        width: 166px !important;
+        margin-bottom: 15px !important;
+        .icon_column{
+          
+          .boarding_pass_icon{
+            margin: auto;
+          }
+        }
+      }
     }
-    .boarding_pass_icon{
-      padding: 10px;
+
+    .right{
+      .title_row{
+        background-color: #e7f3fa;
+        background: #e7f3fa;
+        width: 100%;
+        margin-bottom: 15px;
+        .columns{
+          height: 40px;
+          padding-left: 6px !important;
+          
+          .price_title{
+            font-size: 16px;
+            color: #666666;
+            display: inline-block;
+          }
+        }
+        .columns{
+          height: 40px;
+         
+          .price{
+            font-size: 16px;
+            color: #666666;
+            display: inline-block;
+            
+            .price_secondary{
+              font-size: 11px;
+            }
+          }
+        }
+      }
+
+      .sub_title_column{
+        padding-bottom: 12px !important;
+        .sub_title{
+          color: #666666;
+          font-size: 20px;
+        }
+      }
+      .list_item_column{
+        padding-bottom: 8px !important;
+        .list_item{
+          font-size: 14px;
+          color: #666666;
+          .blue_check{
+            display: inline-block;
+            padding-right: 5px;
+          }
+        }
+      }
+      .button_row{
+        width: 347px;
+        background-color: #ff6000;
+        border-bottom: 1px solid #b1320a;
+        margin-top: 15px !important;
+        .button_column{
+          height: 36px;
+         
+          .button{
+            display: block;
+            font-size: 16px;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+          }
+        }
+      }
     }
-    .price{
-      font-size: 16px;
-      background-color: #e7f3fa;
-      background: #e7f3fa;
-      color: #666666;
-    }
-    .blue_check{
-      display: inline-block;
-    }
-    .sub_title{
-      padding-top: 15px;
-      padding-bottom: 15px;
-      color: #666666;
-      font-size: 20px;
-    }
-    .list_item{
-      font-size: 14px;
-      color: #666666;
-    }
-    .button{
-      width: 347px;
-      background-color: #ff6000;
-      border-bottom: 1px solid #b1320a;
-      color: #ffffff;
-      font-size: 16px;
-      border-radius: 0px;
-      text-align: center;
-      text-decoration: none;
-      font-weight: bold;
-      margin: 0;
-    }
-    .service{
-      font-size: 12px;
-      color: #666666;
+
+    .bottom{
+      padding-top: 20px !important;
+      .service{
+        font-size: 12px;
+        color: #666666;
+      }
     }
   }
 }
