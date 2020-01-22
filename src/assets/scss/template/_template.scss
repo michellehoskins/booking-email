@@ -605,43 +605,83 @@ html, body,
     padding-left: 10px !important;
     padding-right: 10px !important;
     border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
-    .title{
-      color: #056ba8;
-      font-size: 20px;
-      font-weight: bold;
-      padding-bottom: 10px;
-    }
-    .learn_more_row{
-      width: 166px !important;
-      background: #f5f6f7;
-      background-color: #f5f6f7;
-      border: 1px solid #cdcdcd;
-      border-bottom: 1px solid #b7b7b7;
-      
-      .learn_more_column{
-        height: 48px;
-        
-        .learn_more{
-          color: #428bca;
-          display: block;
-          font-size: 14px;
-          width: 166px;
-         
-          text-align: center;
+
+    .left{
+      .title_column{
+        padding-bottom: 25px;
+        .title{
+          color: #056ba8;
+          font-size: 20px;
           font-weight: bold;
-          border-radius: 0px;
-
-          line-height: 28px;
-
+        }
+      }
+      .icon_row{
+        width: 166px !important;
+        margin-bottom: 15px !important;
+        .icon_column{
+          background: #005082;
+          background-color: #005082;
+          
+          .travel_assist_icon{
+            margin: auto;
+          }
+        }
+      }
+      .learn_more_row{
+        width: 166px !important;
+        background: #f5f6f7;
+        background-color: #f5f6f7;
+        border: 1px solid #cdcdcd;
+        border-bottom: 1px solid #b7b7b7;
+        
+        .learn_more_column{
+          height: 48px;
+          
+          .learn_more{
+            color: #428bca;
+            display: block;
+            font-size: 14px;
+            width: 166px;
+           
+            text-align: center;
+            font-weight: bold;
+            border-radius: 0px;
+  
+            line-height: 28px;
+  
+          }
         }
       }
     }
-    .price{
-      font-size: 16px;
-      background-color: #e7f3fa;
-      background: #e7f3fa;
-      color: #666666;
+
+    .right{
+      .title_row{
+        background-color: #e7f3fa;
+        background: #e7f3fa;
+        width: 100%;
+        margin-bottom: 15px;
+        
+        .columns{
+          height: 40px;
+          padding-left: 6px !important;
+          
+          .price_title{
+            font-size: 16px;
+            color: #666666;
+            display: inline-block;
+          }
+        }
+        .columns{
+          height: 40px;
+          .price{
+            font-size: 16px;
+            color: #666666;
+            display: inline-block;
+          }
+        }
+      }
     }
+
     .call_us{
       font-size: 14px;
       color: #666666;
