@@ -361,20 +361,20 @@ subject: Booking Confirmation
           <row>
               <columns small="4" large="4" class="left">
                   <row>
-                      <columns>
-                          <span class="title">Travel Protection Plan</span>
-                      </columns>
+                    <columns>
+                        <span class="title">Travel Protection Plan</span>
+                    </columns>
                   </row>
-                  <row class="icon_row">
-                      <columns class="icon_column">
-                          <img src="{{ root }}/assets/img/travel-insurance.jpg" class="travel_insurance_icon"/>
-                      </columns>
-                  </row>
-                  <row>
-                      <columns>
-                          <a href><span class="learn_more">Learn More &#8250;</span></a>
-                      </columns>
-                  </row>
+                <row class="icon_row">
+                    <columns class="icon_column">
+                        <img src="{{ root }}/assets/img/travel-insurance.jpg" class="travel_insurance_icon"/>
+                    </columns>
+                </row>
+                <row class="learn_more_row">
+                    <columns class="learn_more_column" valign="middle">
+                        <a href><span class="learn_more">Learn More &#8250;</span></a>
+                    </columns>
+                </row>
               </columns>
               <columns small="8" large="8" class="right">
                   <row>
@@ -423,11 +423,11 @@ subject: Booking Confirmation
                           <img src="{{ root }}/assets/img/travel_assist.png" class="travel_assist_icon"/>
                       </columns>
                   </row>
-                  <row>
-                      <columns>
-                          <a href><span class="learn_more">Learn More &#8250;</span></a>
-                      </columns>
-                  </row>
+                <row class="learn_more_row">
+                    <columns class="learn_more_column" valign="middle">
+                        <a href><span class="learn_more">Learn More &#8250;</span></a>
+                    </columns>
+                </row>
               </columns>
               <columns small="8" large="8" class="right">
                   <row>
@@ -489,7 +489,7 @@ subject: Booking Confirmation
                       </columns>
                   </row>
                   <row class="learn_more_row">
-                      <columns class="learn_more_column">
+                      <columns class="learn_more_column" valign="middle">
                           <a href><span class="learn_more">Learn More &#8250;</span></a>
                       </columns>
                   </row>
@@ -792,7 +792,7 @@ subject: Booking Confirmation
         <row>
             <columns small="4" large="4" class="left">
                 <row>
-                    <columns>
+                    <columns class="title_column">
                         <span class="title">Baggage Protection</span>
                     </columns>
                 </row>
@@ -801,34 +801,34 @@ subject: Booking Confirmation
                         <img src="{{ root }}/assets/img/baggage-protection.jpg" class="baggage_protection_icon"/>
                     </columns>
                 </row>
-                <row>
-                    <columns>
+                <row class="learn_more_row">
+                    <columns class="learn_more_column" valign="middle">
                         <a href><span class="learn_more">Learn More &#8250;</span></a>
                     </columns>
                 </row>
             </columns>
             <columns small="8" large="8" class="right">
-                <row>
-                    <columns small="10" large="10" class="float-left">
+                <row  class="title_row">
+                    <columns small="10" large="10" class="left">
                         <span class="price_title">Blue Ribbon Bags Will:</span>
                     </columns>
                     <columns>
-                        <span small="2" large="2" class="price float-right">$2 <sup>.99</sup></span>
+                        <span small="2" large="2" class="price right">$2 <sup>.99</sup></span>
                     </columns>
                 </row>
                 <row>
-                    <columns>
+                    <columns class="info_column">
                         <span class="info"><img src="{{ root }}/assets/img/blue_check.png" class="blue_check"/>Pay you $1000, minimum, per bag, if your bags are not returned to you within 96 hours.</span>
                     </columns>
                 </row>
                 <row>
-                    <columns>
+                    <columns class="info_column">
                         <span class="info"><img src="{{ root }}/assets/img/blue_check.png" class="blue_check"/>Find and return all of your delayed baggage right to you.</span>
                     </columns>
                 </row>
-                <row>
-                    <columns>
-                        <span class="button">Add Baggage Protection</span>
+                <row class="button_row">
+                    <columns class="button_column" valign="middle">
+                        <a href><span class="button">Add Baggage Protection</span></a>
                     </columns>
                 </row>
                 <row>

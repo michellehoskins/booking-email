@@ -541,9 +541,30 @@ html, body,
         }
       }
     }
-    .learn_more{
-      color: #428bca;
-      font-size: 14px;
+    .learn_more_row{
+      width: 166px !important;
+      background: #f5f6f7;
+      background-color: #f5f6f7;
+      border: 1px solid #cdcdcd;
+      border-bottom: 1px solid #b7b7b7;
+      
+      .learn_more_column{
+        height: 48px;
+        
+        .learn_more{
+          color: #428bca;
+          display: block;
+          font-size: 14px;
+          width: 166px;
+         
+          text-align: center;
+          font-weight: bold;
+          border-radius: 0px;
+
+          line-height: 28px;
+
+        }
+      }
     }
     .investment_price{
       font-size: 16px;
@@ -590,9 +611,30 @@ html, body,
       font-weight: bold;
       padding-bottom: 10px;
     }
-    .learn_more{
-      color: #428bca;
-      font-size: 14px;
+    .learn_more_row{
+      width: 166px !important;
+      background: #f5f6f7;
+      background-color: #f5f6f7;
+      border: 1px solid #cdcdcd;
+      border-bottom: 1px solid #b7b7b7;
+      
+      .learn_more_column{
+        height: 48px;
+        
+        .learn_more{
+          color: #428bca;
+          display: block;
+          font-size: 14px;
+          width: 166px;
+         
+          text-align: center;
+          font-weight: bold;
+          border-radius: 0px;
+
+          line-height: 28px;
+
+        }
+      }
     }
     .price{
       font-size: 16px;
@@ -648,7 +690,7 @@ html, body,
       }
       .icon_row{
         width: 166px !important;
-        margin-bottom: 25px !important;
+        margin-bottom: 15px !important;
         .icon_column{
           background: #005082;
           background-color: #005082;
@@ -660,24 +702,26 @@ html, body,
       }
       .learn_more_row{
         width: 166px !important;
+        background: #f5f6f7;
+        background-color: #f5f6f7;
+        border: 1px solid #cdcdcd;
+        border-bottom: 1px solid #b7b7b7;
+        
         .learn_more_column{
-          color: #428bca;
-          background: #f5f6f7;
-          background-color: #f5f6f7;
-          vertical-align: middle;
+          height: 48px;
           
           .learn_more{
-            display: inline-block;
+            color: #428bca;
+            display: block;
             font-size: 14px;
             width: 166px;
-            height: 48px;
+           
             text-align: center;
             font-weight: bold;
             border-radius: 0px;
-            border: 1px solid #cdcdcd;
-            border-bottom: 1px solid #b7b7b7;
+
             line-height: 28px;
-            vertical-align: middle;
+
           }
         }
       }
@@ -1035,6 +1079,11 @@ html, body,
 }
 .add_a_car{
   .first_column{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
     .title{
       color: #056ba8;
     font-size: 20px;
@@ -1070,37 +1119,56 @@ html, body,
 }
 .baggage_protection{
   .first_column{
-    .title{
-      color: #056ba8;
-      font-size: 20px;
-      font-weight: bold;
-    }
-    .icon_row{
-      width: 166px !important;
-      .icon_column{
-        background: #005082;
-        background-color: #005082;
-        .baggage_protection_icon{
-          margin: auto;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
+    .left{
+      .title_column{
+        padding-bottom: 25px;
+        .title{
+          color: #056ba8;
+          font-size: 20px;
+          font-weight: bold;
         }
       }
-    }
-    .learn_more{
-      display: block;
-      color: #428bca;
-      background: #f5f6f7;
-      background-color: #f5f6f7;
-      font-size: 14px;
-      width: 166px;
-      height: 48px;
-      text-align: center;
-      font-weight: bold;
-      border-radius: 0px;
-      padding-top: 15px;
-      padding-bottom: 0;
-      border: 1px solid #cdcdcd;
-      border-bottom: 1px solid #b7b7b7;
-      margin: 0 auto;
+      .icon_row{
+        width: 166px !important;
+        margin-bottom: 15px !important;
+        .icon_column{
+          background: #005082;
+          background-color: #005082;
+          .baggage_protection_icon{
+            margin: auto;
+          }
+        }
+      }
+      .learn_more_row{
+        width: 166px !important;
+        background: #f5f6f7;
+        background-color: #f5f6f7;
+        border: 1px solid #cdcdcd;
+        border-bottom: 1px solid #b7b7b7;
+        
+        .learn_more_column{
+          height: 48px;
+          
+          .learn_more{
+            color: #428bca;
+            display: block;
+            font-size: 14px;
+            width: 166px;
+           
+            text-align: center;
+            font-weight: bold;
+            border-radius: 0px;
+  
+            line-height: 28px;
+  
+          }
+        }
+      }
     }
     .price_title{
       font-size: 16px;
