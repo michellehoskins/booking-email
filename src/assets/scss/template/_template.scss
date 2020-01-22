@@ -680,34 +680,53 @@ html, body,
           }
         }
       }
-    }
 
-    .call_us{
-      font-size: 14px;
-      color: #666666;
-      font-weight: bold;
-    }
-    .blue_check{
-      display: inline-block;
-    }
-    .list_item{
-      font-size: 14px;
-      color: #666666;
-    }
-    .button{
-      background-color: #ff6000;
-      border-bottom: 1px solid #b1320a;
-      color: #ffffff;
-      font-size: 16px;
-      border-radius: 0px;
-      text-align: center;
-      text-decoration: none;
-      font-weight: bold;
-      margin: 0;
-    }
-    .not_medical{
-      font-size: 12px;
-      color: #666666;
+      .call_us_column{
+        padding-bottom: 15px;
+        .call_us{
+          font-size: 14px;
+          color: #666666;
+          font-weight: bold;
+        }
+      }
+      .list_item_column{
+        padding-bottom: 5px;
+        padding-left: 25px !important;
+        .blue_check{
+          display: inline-block;
+          padding-right: 5px;
+        }
+        .list_item{
+          font-size: 14px;
+          color: #666666;
+          
+        }
+      }
+      .button_row{
+        width: 347px;
+        background-color: #ff6000;
+        border-bottom: 1px solid #b1320a;
+        margin-top: 15px !important;
+        .button_column{
+          height: 36px;
+         
+          .button{
+            display: block;
+            font-size: 16px;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+          }
+        }
+      }
+      .not_medical_column{
+        padding-top: 10px;
+        .not_medical{
+          font-size: 12px;
+          color: #666666;
+        }
+      }
     }
   }
 }
