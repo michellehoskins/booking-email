@@ -1335,6 +1335,8 @@ html, body,
     }
     .flight_price_details_row{
       .flight_price_details_column{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
         border-bottom:1px dashed #dadadb;
         .flight_price_details{
           color:#056ba8;
@@ -1345,71 +1347,105 @@ html, body,
     }
     .ticket_row{
       .ticket_column_first{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
         border-bottom:1px dashed #dadadb;
         .ticket{
-
+          font-size: 12px;
+          color: #666666;
         }
       }
       .ticket_column_second{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
         border-bottom:1px dashed #dadadb;
         .ticket_price{
-
+          font-size: 12px;
+          color: #666666;
         }
       }
     }
     .subtotal_row{
       .subtotal_column_first{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
         border-bottom:1px dashed #dadadb;
         .subtotal{
-
+          font-size: 12px;
+          color: #666666;
         }
       }
       .subtotal_column_second{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
         border-bottom:1px dashed #dadadb;
         .subtotal_price{
-
+          font-size: 12px;
+          color: #666666;
         }
       }
     }
     .taxes_row{
       .taxes_column_first{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
         border-bottom:1px dashed #dadadb;
         .taxes{
-
+          font-size: 12px;
+          color: #056ba8;
         }
       }
       .taxes_column_second{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
         border-bottom:1px dashed #dadadb;
         .taxes_price{
-
+          font-size: 12px;
+          color: #666666;
         }
       }
     }
     .flight_total_row{
       .flight_total_column_first{
+        padding-top: 5px !important;
+        padding-bottom: 20px !important;
         .flight{
-
+          font-size: 12px;
+          color: #666666;
+          font-weight: bold;
         }
       }
       .flight_total_column_second{
+        padding-top: 5px !important;
+        padding-bottom: 20px !important;
         .flight_price{
-
+          font-size: 12px;
+          color: #666666;
+          font-weight: bold;
         }
       }
     }
     .total_charge_row{
       .total_charge_column_first{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
         border-top:1px solid #d0d1d2;
         border-bottom:3px solid #d0d1d2;
         .total_charge{
-
+          font-size:16px;
+          font-weight:bold;
+          color:#008dce;
         }
       }
       .total_charge_column_second{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
         border-top:1px solid #d0d1d2;
         border-bottom:3px solid #d0d1d2;
         .total_charge_price{
-
+          font-size:16px;
+          font-weight:bold;
+          color:#008dce;
         }
       }
     }
