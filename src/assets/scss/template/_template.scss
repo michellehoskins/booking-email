@@ -1090,9 +1090,14 @@ html, body,
       }
     }
     .seventh_row{
-      .singular{
-        padding-top: 10px;
-        padding-bottom: 10px;
+      margin-top: 30px !important;
+      .seventh_row_column{
+      
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        padding-left: 15px !important;
+        padding-right: 30px !important;
+        border-top: 1px solid #e2e2e2;
         .see_more{
           font-size: 14px;
           text-align: right;
