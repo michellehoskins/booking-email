@@ -106,11 +106,11 @@ html, body,
    
     .flight{
       display: inline-block;
-      padding-top: 20px;
+      padding-top: 20px !important;
+      padding-bottom: 10px !important;
     }
     .text{
       padding-top: 0;
-      padding-bottom: 30px !important;
     }
   }
   .status{
