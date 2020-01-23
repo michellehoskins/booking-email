@@ -1335,18 +1335,23 @@ html, body,
     }
     .flight_price_details_row{
       .flight_price_details_column{
+        border-bottom:1px dashed #dadadb;
         .flight_price_details{
-
+          color:#056ba8;
+          font-size:14px;
+          font-weight:bold;
         }
       }
     }
     .ticket_row{
       .ticket_column_first{
+        border-bottom:1px dashed #dadadb;
         .ticket{
 
         }
       }
       .ticket_column_second{
+        border-bottom:1px dashed #dadadb;
         .ticket_price{
 
         }
@@ -1354,11 +1359,13 @@ html, body,
     }
     .subtotal_row{
       .subtotal_column_first{
+        border-bottom:1px dashed #dadadb;
         .subtotal{
 
         }
       }
-      .subtotal_column_column{
+      .subtotal_column_second{
+        border-bottom:1px dashed #dadadb;
         .subtotal_price{
 
         }
@@ -1366,11 +1373,13 @@ html, body,
     }
     .taxes_row{
       .taxes_column_first{
+        border-bottom:1px dashed #dadadb;
         .taxes{
 
         }
       }
       .taxes_column_second{
+        border-bottom:1px dashed #dadadb;
         .taxes_price{
 
         }
@@ -1390,11 +1399,15 @@ html, body,
     }
     .total_charge_row{
       .total_charge_column_first{
+        border-top:1px solid #d0d1d2;
+        border-bottom:3px solid #d0d1d2;
         .total_charge{
 
         }
       }
       .total_charge_column_second{
+        border-top:1px solid #d0d1d2;
+        border-bottom:3px solid #d0d1d2;
         .total_charge_price{
 
         }
