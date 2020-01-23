@@ -1240,36 +1240,71 @@ html, body,
     padding-right: 10px !important;
     padding-left: 10px !important;
     border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
-    .title{
-      color: #056ba8;
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
-    }
-    .sub_title{
-      font-size: 16px;
-      color: #333333;
-      display: block;
-      .sub_title_secondary{
-        color: #7ba736;
+    .top_row{
+      .top_left{
+        padding-bottom: 15px;
+        .car_icon{
+
+        }
+      }
+      .top_right{
+        padding-bottom: 15px;
+        .title_column{
+          .title{
+            color: #056ba8;
+          font-size: 20px;
+          font-weight: bold;
+          display: block;
+          }
+          .sub_title{
+            font-size: 16px;
+            color: #333333;
+            display: block;
+            .sub_title_secondary{
+              color: #7ba736;
+            }
+          }
+        }
       }
     }
-    .info{
-      font-size: 14px;
-      color: #666666;
-      .blue_check{
-        display: inline-block;
+
+    .bottom_row{
+      .bottom_left{
+        .keys{
+
+        }
       }
-    }
-    .button{
-      background: #ff6000;
-      background-color: #ff6000;
-      color: #ffffff;
-      font-size: 16px;
-      font-weight: bold;
-      width: 317px;
-      text-align: center;
-      border-radius: 0px;
+      .bottom_right{
+        .info_column{
+          padding-bottom: 7px;
+          .info{
+            font-size: 14px;
+            color: #666666;
+            .blue_check{
+              display: inline-block;
+              padding-right: 5px;
+            }
+          }
+        }
+        .button_row{
+          width: 280px !important;
+          background-color: #ff6000;
+          border-bottom: 1px solid #b1320a;
+          margin-top: 15px !important;
+          .button_column{
+            height: 36px;
+           
+            .button{
+              display: block;
+              font-size: 16px;
+              color: #ffffff;
+              text-align: center;
+              text-decoration: none;
+              font-weight: bold;
+            }
+          }
+        }
+      }
     }
   }
 }
