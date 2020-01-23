@@ -326,7 +326,7 @@ html, body,
   background-color:#fff1d8;
   border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
   .first_column{
-    padding: 15px;
+    padding-top: 15px !important;
     padding-bottom: 20px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
@@ -1260,49 +1260,76 @@ html, body,
   }
 }
 .billing_details{
+  background: #f5f6f7;
+  background-color: #f5f6f7;
   .first_column{
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
     .title_row{
       .title_column{
+        padding-top: 20px !important;
+        border-bottom: 1px solid #d1d2d3 !important;
         .title{
+          color: #056ba8;
+          font-size: 24px;
+          font-weight: bold;
           .usd{
-
+            font-size: 14px;
           }
         }
       }
     }
     .method_row{
       .method_column_first{
+        padding-top: 15px !important;
         .method{
-
+          font-size: 14px;
+          color: #666666;
         }
       }
       .method_column_second{
+        padding-top: 15px !important;
         .method_info{
-
+          font-size: 14px;
+          color: #666666;
         }
       }
     }
     .phone_row{
       .phone_column_first{
+        padding-top: 15px !important;
         .phone{
-
+          font-size: 14px;
+          color: #666666;
         }
       }
       .phone_column_second{
+        padding-top: 15px !important;
         .phone_info{
-
+          font-size: 14px;
+          color: #666666;
         }
       }
     }
     .email_row{
       .email_column_first{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        border-bottom: 1px solid #d1d2d3 !important;
         .email{
-
+          font-size: 14px;
+          color: #666666;
         }
       }
       .email_column_second{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        border-bottom: 1px solid #d1d2d3 !important;
         .email_info{
-
+          font-size: 14px;
+          color: #0000EE;
         }
       }
     }
@@ -1369,7 +1396,7 @@ html, body,
       }
       .total_charge_column_second{
         .total_charge_price{
-          
+
         }
       }
     }
