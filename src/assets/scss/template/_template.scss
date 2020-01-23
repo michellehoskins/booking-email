@@ -1257,8 +1257,121 @@ html, body,
         }
       }
     }
+  }
+}
+.billing_details{
+  .first_column{
+    .title_row{
+      .title_column{
+        .title{
+          .usd{
 
-  
+          }
+        }
+      }
+    }
+    .method_row{
+      .method_column_first{
+        .method{
 
+        }
+      }
+      .method_column_second{
+        .method_info{
+
+        }
+      }
+    }
+    .phone_row{
+      .phone_column_first{
+        .phone{
+
+        }
+      }
+      .phone_column_second{
+        .phone_info{
+
+        }
+      }
+    }
+    .email_row{
+      .email_column_first{
+        .email{
+
+        }
+      }
+      .email_column_second{
+        .email_info{
+
+        }
+      }
+    }
+    .flight_price_details_row{
+      .flight_price_details_column{
+        .flight_price_details{
+
+        }
+      }
+    }
+    .ticket_row{
+      .ticket_column_first{
+        .ticket{
+
+        }
+      }
+      .ticket_column_second{
+        .ticket_price{
+
+        }
+      }
+    }
+    .subtotal_row{
+      .subtotal_column_first{
+        .subtotal{
+
+        }
+      }
+      .subtotal_column_column{
+        .subtotal_price{
+
+        }
+      }
+    }
+    .taxes_row{
+      .taxes_column_first{
+        .taxes{
+
+        }
+      }
+      .taxes_column_second{
+        .taxes_price{
+
+        }
+      }
+    }
+    .flight_total_row{
+      .flight_total_column_first{
+        .flight{
+
+        }
+      }
+      .flight_total_column_second{
+        .flight_price{
+
+        }
+      }
+    }
+    .total_charge_row{
+      .total_charge_column_first{
+        .total_charge{
+
+        }
+      }
+      .total_charge_column_second{
+        .total_charge_price{
+          
+        }
+      }
+    }
   }
 }
