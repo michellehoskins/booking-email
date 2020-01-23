@@ -1010,7 +1010,11 @@ html, body,
       }
     }
     .fourth_row{
-      .left{
+      .fourth_row_column{
+        padding-top: 12px !important;
+        padding-bottom: 5px !important;
+        padding-left: 12px !important;
+        padding-right: 0 !important;
         .bg_aeroplane{
           display: inline-block;
         }
@@ -1038,62 +1042,6 @@ html, body,
           color: #a1a1a1;
         }
       }
-      .middle{
-        .bg_aeroplane{
-          display: inline-block;
-        }
-        .plus{
-          font-size: 18px;
-          margin-right: 5px;
-          color: #056ba8;
-          margin-left: 5px;
-          line-height: 1.42857143;
-        }
-        .bg_hotel{
-          display: inline-block;
-        }
-        .exclusive{
-          font-size: 12px;
-          color: #056ba8;
-          font-weight:bold;
-        }
-        .cost{
-          font-size: 20px;
-          color: #056ba8;
-        }
-        .per_night{
-          font-size: 12px;
-          color: #a1a1a1;
-        }
-      }
-      .right{
-        .bg_aeroplane{
-          display: inline-block;
-        }
-        .plus{
-          font-size: 18px;
-          margin-right: 5px;
-          color: #056ba8;
-          margin-left: 5px;
-          line-height: 1.42857143;
-        }
-        .bg_hotel{
-          display: inline-block;
-        }
-        .exclusive{
-          font-size: 12px;
-          color: #056ba8;
-          font-weight:bold;
-        }
-        .cost{
-          font-size: 20px;
-          color: #056ba8;
-        }
-        .per_night{
-          font-size: 12px;
-          color: #a1a1a1;
-        }
-      } 
     }
     .fifth_row{
       .left{
