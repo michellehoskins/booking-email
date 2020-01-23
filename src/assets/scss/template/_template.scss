@@ -227,7 +227,7 @@ html, body,
       color: #666666;
     }   
   }
-  .six_row{
+  .sixth_row{
     .arrival_date{
       font-size: 16px;
       font-weight: bold;
@@ -960,46 +960,54 @@ html, body,
 .hotels{
   .first_column{
     .first_row{
-      .left{
-        .place{
-          color: #056ba8;
-          font-size: 16px;
+      .first_row_column{
+        border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        &.left{
+          .place{
+            color: #056ba8;
+            font-size: 16px;
+          }
         }
-      }
-      .middle{
-        background: #f3f4f7;
-        background-color: #f3f4f7;
-        .date{
-          font-size: 12px;
-          color: #a1a1a1;
-          .date_secondary{
-            color: #676767;
+        &.middle{
+          background: #f3f4f7;
+          background-color: #f3f4f7;
+          .date{
+            font-size: 12px;
+            color: #a1a1a1;
+            .date_secondary{
+              color: #676767;
+            }
+          }
+        }
+        &.right{
+          background: #f3f4f7;
+          background-color: #f3f4f7;
+          .date{
+            font-size: 12px;
+            color: #a1a1a1;
+            .date_secondary{
+              color: #676767;
+            }
           }
         }
       }
-      .right{
-        background: #f3f4f7;
-        background-color: #f3f4f7;
-        .date{
-          font-size: 12px;
-          color: #a1a1a1;
-          .date_secondary{
-            color: #676767;
-          }
-        }
-      }
-
     }
     .second_row{
-      .left{
+      .second_row_column{
+        .left{
 
+        }
+        .middle{
+  
+        }
+        .right{
+  
+        } 
       }
-      .middle{
-
-      }
-      .right{
-
-      } 
     }
     .third_row{
       .left{
