@@ -131,27 +131,33 @@ html, body,
 .departing{
   background: #dee9f2;
   background-color: #dee9f2;
-  padding: 3px 15px;
-  .departing_flight{
-    color: #056ba8;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 34px;
-  }
-  .button_column{
-    background: #118acb;
-    background-color: #118acb;
-    .button{
-      color: #ffffff;
-      font-size: 14px;
-      border-radius: 0px;
-      text-align: center;
-      text-decoration: none;
+  .first_column{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
+    .departing_flight{
+      color: #056ba8;
+      font-size: 20px;
       font-weight: bold;
-      height: 34px;
-      .make_changes{
-        display: inline-block;
-        width: 31px;
+      line-height: 34px;
+    }
+    .button_column{
+      background: #118acb;
+      background-color: #118acb;
+      .button{
+        color: #ffffff;
+        font-size: 14px;
+        border-radius: 0px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        height: 34px;
+        .make_changes{
+          display: inline-block;
+          width: 31px;
+        }
       }
     }
   }
@@ -466,7 +472,7 @@ html, body,
 }
 .boarding_pass{
   .first_column{
-    padding: 15px;
+    padding-top: 15px !important;
     padding-bottom: 15px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
