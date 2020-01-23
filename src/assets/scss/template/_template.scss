@@ -1451,3 +1451,32 @@ html, body,
     }
   }
 }
+.please_note{
+  background: #f5f6f7;
+  background-color: #f5f6f7;
+  .first_column{
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    .title_row{
+      .title_column{
+        .title{
+          font-size: 14px;
+          font-weight: bold;
+          color: #666666;
+        }
+      }
+    }
+    .ul_row{
+      .ul_column{
+        .list{
+          .item{
+            font-size: 14px;
+            color: #666666;
+          }
+        }
+      }
+    }
+  }
+}
