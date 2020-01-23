@@ -136,7 +136,7 @@ html, body,
     padding-bottom: 5px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
-    border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
+    border: 1px solid #d4d4d4;
     .departing_flight{
       color: #056ba8;
       font-size: 20px;
@@ -162,229 +162,134 @@ html, body,
     }
   }
 }
-.plane_times{
-  .airline{
-    .left{
-      width: 45%;
-    .spirit_icon{
-        border: 1px solid #acacac;
-        border-radius: 5px;
-        width: 60px;
-        height: 35px;
+.time_and_location{
+  .first_column{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    margin-bottom: 20px !important;
+    border: 1px solid #d4d4d4;
+    .plane_times, .plane_times_two{
+      .left_column{
+        .airline{
+          .left{
+            width: 45%;
+          .spirit_icon{
+              border: 1px solid #acacac;
+              border-radius: 5px;
+              width: 60px;
+              height: 35px;
+            }
+          }
+          .right{
+            padding-bottom: 20px !important;
+            .text_primary{
+              font-size: 12px;
+              color: #333333;
+            }
+            .text_secondary{
+              font-size: 12px;
+              color: #666666;
+            }
+          }
+        }
+        .type{
+          .text_primary{
+            font-size: 12px;
+            color: #a1a1a1;
+          }
+        }
+        .info{
+          .text_secondary{
+            font-size: 12px;
+            color: #428bca;
+            text-decoration: none;
+            .text_tertiary{
+              color: #666666;
+            }
+          }
+        }
       }
-    }
-    .right{
-      .text_primary{
-        font-size: 12px;
-        color: #333333;
+      .middle_column{
+        padding-bottom: 10px !important;
+        .first_row{
+          .depature_date{
+            font-size: 16px;
+            font-weight: bold;
+            color: #666666;
+          }
+        }
+        .second_row{
+          .depature_place{
+            font-size: 12px;
+            color: #666666;
+          }
+        }
+        .third_row{
+          .depature_time{
+            font-size: 20px;
+            font-weight: bold;
+            color: #666666;
+          }
+        }
+        .fourth_row{
+          .arrival_place{
+            font-size: 12px;
+            color: #666666;
+          }    
+        }
+        .fifth_row{
+          .arrival_time{
+            font-size: 20px;
+            font-weight: bold;
+            color: #666666;
+          }   
+        }
+        .sixth_row{
+          .arrival_date{
+            font-size: 16px;
+            font-weight: bold;
+            color: #666666;
+          }
+        }
       }
-      .text_secondary{
-        font-size: 12px;
-        color: #666666;
+      .right_column{
+        .first{
+          .airline_confirmation{
+            background: #f6f6f6;
+            background-color: #f6f6f6;
+            .confirmation{
+              font-size: 12px;
+              color: #666666;
+            }
+            .number{
+              font-size: 12px;
+              color: #666666;
+              font-weight: bold;
+            }
+          }
+        }
+        .middle{
+          .check_in{
+            font-size: 12px;
+            color: #428bca;
+            text-decoration: underline;
+          }
+        }
+        .last{
+          .chat{
+            font-size: 14px;
+            color: #428bca;
+            text-decoration: underline;
+            font-weight: bold;
+          }
+          .support{
+            font-size: 12px;
+            color: #000000;
+          }
+        }
       }
-    }
-  }
-  .type{
-    .text_primary{
-      font-size: 12px;
-      color: #a1a1a1;
-    }
-  }
-  .info{
-    .text_secondary{
-      font-size: 12px;
-      color: #428bca;
-      text-decoration: none;
-      .text_tertiary{
-        color: #666666;
-      }
-    }
-  }
-  .first_row{
-    .depature_date{
-      font-size: 16px;
-      font-weight: bold;
-      color: #666666;
-    }
-  }
-  .second_row{
-    .depature_place{
-      font-size: 12px;
-      color: #666666;
-    }
-  }
-  .third_row{
-    .depature_time{
-      font-size: 20px;
-      font-weight: bold;
-      color: #666666;
-    }
-  }
-  .fourth_row{
-    .arrival_place{
-      font-size: 12px;
-      color: #666666;
-    }    
-  }
-  .fifth_row{
-    .arrival_time{
-      font-size: 20px;
-      font-weight: bold;
-      color: #666666;
-    }   
-  }
-  .sixth_row{
-    .arrival_date{
-      font-size: 16px;
-      font-weight: bold;
-      color: #666666;
-    }
-  }
-  .first{
-    .airline_confirmation{
-      background: #f6f6f6;
-      background-color: #f6f6f6;
-      .confirmation{
-        font-size: 12px;
-        color: #666666;
-      }
-      .number{
-        font-size: 12px;
-        color: #666666;
-        font-weight: bold;
-      }
-    }
-  }
-  .middle{
-    .check_in{
-      font-size: 12px;
-      color: #428bca;
-      text-decoration: underline;
-    }
-  }
-  .last{
-    .chat{
-      font-size: 14px;
-      color: #428bca;
-      text-decoration: underline;
-      font-weight: bold;
-    }
-    .support{
-      font-size: 12px;
-      color: #000000;
-    }
-  }
-}
-.plane_times_two{
-  .airline{
-    .left{
-      width: 45%;
-    .spirit_icon{
-        border: 1px solid #acacac;
-        border-radius: 5px;
-        width: 60px;
-        height: 35px;
-      }
-    }
-    .right{
-      .text_primary{
-        font-size: 12px;
-        color: #333333;
-      }
-      .text_secondary{
-        font-size: 12px;
-        color: #666666;
-      }
-    }
-  }
-  .type{
-    .text_primary{
-      font-size: 12px;
-      color: #a1a1a1;
-    }
-  }
-  .info{
-    .text_secondary{
-      font-size: 12px;
-      color: #428bca;
-      text-decoration: none;
-      .text_tertiary{
-        color: #666666;
-      }
-    }
-  }
-  .first_row{
-    .depature_date{
-      font-size: 16px;
-      font-weight: bold;
-      color: #666666;
-    }
-  }
-  .second_row{
-    .depature_place{
-      font-size: 12px;
-      color: #666666;
-    }
-  }
-  .third_row{
-    .depature_time{
-      font-size: 20px;
-      font-weight: bold;
-      color: #666666;
-    }
-  }
-  .fourth_row{
-    .arrival_place{
-      font-size: 12px;
-      color: #666666;
-    }    
-  }
-  .fifth_row{
-    .arrival_time{
-      font-size: 20px;
-      font-weight: bold;
-      color: #666666;
-    }   
-  }
-  .six_row{
-    .arrival_date{
-      font-size: 16px;
-      font-weight: bold;
-      color: #666666;
-    }
-  }
-  .first{
-    .airline_confirmation{
-      background: #f6f6f6;
-      background-color: #f6f6f6;
-      .confirmation{
-        font-size: 12px;
-        color: #666666;
-      }
-      .number{
-        font-size: 12px;
-        color: #666666;
-        font-weight: bold;
-      }
-    }
-  }
-  .middle{
-    .check_in{
-      font-size: 12px;
-      color: #428bca;
-      text-decoration: underline;
-    }
-  }
-  .last{
-    .chat{
-      font-size: 14px;
-      color: #428bca;
-      text-decoration: underline;
-      font-weight: bold;
-    }
-    .support{
-      font-size: 12px;
-      color: #000000;
     }
   }
 }
