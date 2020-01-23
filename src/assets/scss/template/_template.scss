@@ -959,6 +959,7 @@ html, body,
 }
 .hotels{
   .first_column{
+    border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
     .first_row{
       .first_row_column{
         border: 1px solid #d4d4d4; border-bottom:1px solid #9f9f9f;
@@ -1062,40 +1063,31 @@ html, body,
         }
       }
     }
-    .six_row{
-      .left{
+    .sixth_row{
+      .sixth_row_column{
+        padding-top: 12px !important;
+        padding-bottom: 5px !important;
+        padding-left: 25px !important;
+        padding-right: 20px !important;
         .seal{
-
+          width: 19px;
         }
-        .button{
-          font-size: 12px;
+        .button_column{
+          height: 30px;
+          width: 65px !important;
           background: #ff6000;
           background-color: #ff6000;
-          color: #ffffff;
+          
+          .button{
+            display: block;
+            font-size: 12px;
+            color: #ffffff;
+            text-align: center;
+            font-weight: bold;
+            
+          }
         }
       }
-      .middle{
-        .seal{
-
-        }
-        .button{
-          font-size: 12px;
-          background: #ff6000;
-          background-color: #ff6000;
-          color: #ffffff;
-        }
-      }
-      .right{
-        .seal{
-
-        }
-        .button{
-          font-size: 12px;
-          background: #ff6000;
-          background-color: #ff6000;
-          color: #ffffff;
-        }
-      } 
     }
     .seventh_row{
       .singular{
