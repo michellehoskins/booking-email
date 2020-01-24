@@ -1581,7 +1581,10 @@ html, body,
           display: inline-block;
         }
         .text_primary{
-
+          display: inline-block;
+          font-size: 14px;
+          color: #016CA9;
+          font-weight: bold;
         }
       }
       .my_booking_column{
@@ -1589,7 +1592,10 @@ html, body,
           display: inline-block;
         }
         .text_primary{
-
+          display: inline-block;
+          font-size: 14px;
+          color: #016CA9;
+          font-weight: bold;
         }
       }
       .faqs{
@@ -1597,19 +1603,95 @@ html, body,
           display: inline-block;
         }
         .text_primary{
-
+          display: inline-block;
+          font-size: 14px;
+          color: #016CA9;
+          font-weight: bold;
         }
       }
     }
     .bottom_row{
       .rewards_column{
-
+        background-color: #016dab;
+        background: #016dab;
+        border-right: 1px solid #016aa6;
+        border-bottom: 1px solid #016aa6;
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+        .rewards_icon_column{
+          .rewards_icon{
+            display: inline-block;
+          }
+        }
+        .sub_title_column{
+          .sub_title_primary{
+            color: #FFFFFF;
+            font-size: 18px;
+          }
+          .sub_title_secondary{
+            color: #FFFFFF;
+            font-size: 23px;
+            font-weight: bold;
+          }
+        }
       }
       .connect_with_us_column{
-
+        background-color: #1b7cb4;
+        background: #1b7cb4;
+        border-right: 1px solid #016aa6;
+        border-bottom: 1px solid #016aa6;
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+        .text_secondary_column{
+          .text_secondary{
+            display: block;
+            color: #FFFFFF;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+          }
+        }
+        .icon_column{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          .facebook_icon{
+            display: inline-block;
+          }
+          .google_icon{
+            display: inline-block;
+          }
+          .twitter_icon{
+            display: inline-block;
+          }
+        }
       }
-      .get_app{
-
+      .get_app_column{
+        background-color: #348abc;
+        border-right: 1px solid #016aa6;
+        border-bottom: 1px solid #016aa6;
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+        .text_secondary_column{
+          .text_secondary{
+            display: block;
+            color: #FFFFFF;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+          }
+        }
+        .icon_column{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          .app_store_icon{
+            display: inline-block;
+          }
+          .play_store_icon{
+            display: inline-block;
+          }
+        }
       }
     }
   }
