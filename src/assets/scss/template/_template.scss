@@ -1652,6 +1652,7 @@ html, body,
           }
         }
         .icon_column{
+          padding-top: 5px !important;
           padding-left: 60px !important;
           .facebook_icon{
             display: inline-block;
@@ -1683,9 +1684,8 @@ html, body,
           }
         }
         .icon_column{
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
+          padding-top: 5px !important;
+          padding-left: 70px !important;
           .app_store_icon{
             display: inline-block;
           }
