@@ -1521,3 +1521,41 @@ html, body,
     padding-right: 20px !important;
   }
 }
+.terms_and_conditions{
+  background: #f5f6f7;
+  background-color: #f5f6f7;
+  .first_column{
+    padding-top: 15px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    .title_row{
+      .title_column{
+        padding-bottom: 20px !important;
+        .title{
+          color: #076ba7;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+    .info_row{
+      .columns{
+        .p{
+          .sub_title{
+
+          }
+          .more_info{
+
+          }
+          .website{
+
+          }
+          .phone_number{
+
+          }
+        }
+      }
+    }
+  }
+}
