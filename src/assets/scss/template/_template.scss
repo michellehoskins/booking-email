@@ -1540,19 +1540,31 @@ html, body,
       }
     }
     .info_row{
-      .columns{
-        .p{
+      .info_column{
+        border-top: 1px solid #d4d4d4;
+        border-bottom: 1px solid #9f9f9f;
+        border-left: 1px solid #d4d4d4;
+        padding: 0 15px 15px 15px;
+        border-right: 1px solid #d4d4d4;
+        background-color: #ffffff;
+        padding-top: 20px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-bottom: 25px !important;
+        p, ul{
+          color: #676767;
+          font-size: 12px;
           .sub_title{
-
+            font-weight: bold;
           }
           .more_info{
 
           }
           .website{
-
+            color: #0000EE;
           }
           .phone_number{
-
+            color: #428bca;
           }
         }
       }
