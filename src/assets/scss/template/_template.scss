@@ -1575,38 +1575,73 @@ html, body,
   background: #f5f6f7;
   background-color: #f5f6f7;
   .footer_column{
+    padding-top: 15px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border-top: 1px solid #d5d6d7;
     .top_row{
-      .customer_support_column{
-        .customer_support_icon{
-          display: inline-block;
+      .menu_divider_column{
+        width: 2%;
+        .menu_divider{
+          display: block;
+          height: 30px;
+          width: 2px;
+          background: #ccd9e5;
+          background-color: #ccd9e5;
         }
-        .text_primary{
-          display: inline-block;
-          font-size: 14px;
-          color: #016CA9;
-          font-weight: bold;
+      }
+      .customer_support_column{
+        padding-bottom: 15px !important;
+        .left{
+          padding-right: 10px !important;
+          .customer_support_icon{
+            display: inline-block;
+            
+          }
+        }
+        .right{
+          .text_primary{
+            display: inline-block;
+            font-size: 14px;
+            color: #016CA9;
+            font-weight: bold;
+          }
         }
       }
       .my_booking_column{
-        .my_booking_icon{
-          display: inline-block;
+        padding-bottom: 15px !important;
+
+        .left{
+          padding-right: 10px !important;
+          .my_booking_icon{
+            display: inline-block; 
+          }
         }
-        .text_primary{
-          display: inline-block;
-          font-size: 14px;
-          color: #016CA9;
-          font-weight: bold;
+        .right{
+          .text_primary{
+            display: inline-block;
+            font-size: 14px;
+            color: #016CA9;
+            font-weight: bold;
+          }
         }
       }
-      .faqs{
-        .faq_icon{
-          display: inline-block;
+      .faqs_column{
+        padding-bottom: 15px !important;
+        .left{
+          padding-right: 10px !important;
+          .faq_icon{
+            display: inline-block;
+           
+          }
         }
-        .text_primary{
-          display: inline-block;
-          font-size: 14px;
-          color: #016CA9;
-          font-weight: bold;
+        .right{
+          .text_primary{
+            display: inline-block;
+            font-size: 14px;
+            color: #016CA9;
+            font-weight: bold;
+          }
         }
       }
     }
@@ -1701,6 +1736,8 @@ html, body,
   background: #f5f6f7;
   background-color: #f5f6f7;
   .subfooter_column{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     .subtitle{
       font-size: 12px;
       color: #A1A1A1;

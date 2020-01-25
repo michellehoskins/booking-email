@@ -3,16 +3,40 @@
         <columns class="footer_column">
             <row class="top_row">
                 <columns class="customer_support_column" valign="center">
-                    <img src="{{ root }}/assets/img/customer-support.png" class="customer_support_icon"/>
-                    <p class="text_primary">Customer Support</p>
+                    <row>
+                        <columns small="3" large="3" class="left">
+                            <img src="{{ root }}/assets/img/customer-support.png" class="customer_support_icon"/>
+                        </columns>
+                        <columns small="9" large="9" class="right">
+                            <a href="#"><p class="text_primary">Customer Support</p></a>
+                        </columns>
+                    </row>
+                </columns>
+                <columns class="menu_divider_column">
+                    <span class="menu_divider"></span>
                 </columns>
                 <columns class="my_booking_column">
-                    <img src="{{ root }}/assets/img/my-booking.png" class="my_booking_icon"/>
-                    <p class="text_primary" valign="center">My Bookings</p>
+                    <row>
+                        <columns small="3" large="3" class="left">
+                            <img src="{{ root }}/assets/img/my-booking.png" class="my_booking_icon"/>
+                        </columns>
+                        <columns small="9" large="9" class="right">
+                            <a href="#"><p class="text_primary" valign="center">My Bookings</p></a>
+                        </columns>
+                    </row> 
                 </columns>
-                <columns class="faqs">
-                    <img src="{{ root }}/assets/img/live-chat.png" class="faq_icon"/>
-                    <p class="text_primary" valign="center">FAQs</p>
+                <columns class="menu_divider_column">
+                    <span class="menu_divider"></span>
+                </columns>
+                <columns class="faqs_column">
+                    <row>
+                        <columns small="3" large="3" class="left">
+                            <img src="{{ root }}/assets/img/live-chat.png" class="faq_icon"/>
+                        </columns>
+                        <columns small="9" large="9" class="right">
+                            <a href="#"><p class="text_primary" valign="center">FAQs</p></a>
+                        </columns>
+                    </row>
                 </columns>
             </row>
             <row class="bottom_row">
@@ -35,9 +59,9 @@
                     </row>
                     <row>
                         <columns class="icon_column">
-                            <img src="{{ root }}/assets/img/facebook.png" class="facebook_icon"/>
-                            <img src="{{ root }}/assets/img/google.png" class="google_icon"/>
-                            <img src="{{ root }}/assets/img/twitter.png" class="twitter_icon"/>
+                            <a href="#"><img src="{{ root }}/assets/img/facebook.png" class="facebook_icon"/></a>
+                            <a href="#"><img src="{{ root }}/assets/img/google.png" class="google_icon"/></a>
+                            <a href="#"><img src="{{ root }}/assets/img/twitter.png" class="twitter_icon"/></a>
                         </columns>
                     </row>
                 </columns>
@@ -49,8 +73,8 @@
                     </row>
                     <row>
                         <columns class="icon_column float-center">
-                            <img src="{{ root }}/assets/img/app-store.png" class="app_store_icon"/>
-                            <img src="{{ root }}/assets/img/play-store.png" class="play_store_icon"/>
+                            <a href="#"><img src="{{ root }}/assets/img/app-store.png" class="app_store_icon"/></a>
+                            <a href="#"><img src="{{ root }}/assets/img/play-store.png" class="play_store_icon"/></a>
                         </columns>
                     </row>
                 </columns>
